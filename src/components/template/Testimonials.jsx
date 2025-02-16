@@ -23,7 +23,7 @@ const datax = [
   {
     id: 2,
     name: 'Wahyu Hayuk',
-    kedudukan: 'Dosen di Boating School Ny. Puff',
+    kedudukan: 'Mahasiswa Abadi',
     rating: star1,
     message: 'Gara-gara aplikasi ini aku tidak bisa bolos kuliah, padahal cita-citaku ingin bolos kuliah dan menitipkan absen saja. Huft.',
     avatar: avatar2,
@@ -31,7 +31,7 @@ const datax = [
   {
     id: 3,
     name: 'Ibu Skarlet Darkening',
-    kedudukan: 'Dosen di Boating School Ny. Puff',
+    kedudukan: 'Ibunya Wahyu Hayuk',
     rating: star5,
     message: 'Hanya di rezim ini ada aplikasi yang membuat anak saya menjadi rajin kuliah walaupun tidak menjadi pandai. Terima kasih Papa Zola!',
     avatar: avatar3,
@@ -39,7 +39,7 @@ const datax = [
   {
     id: 4,
     name: 'Indah Cyank Dya Clmax',
-    kedudukan: 'Dosen di Boating School Ny. Puff',
+    kedudukan: 'Works at Looking For True Love, Inc',
     rating: star3,
     message: 'Aq kmrn koq instla di hp qu gx bs y? ap krn aq pke hp miTho? admin tLonk dnk bntU instlA d hp qu, aq mw pKe apkx',
     avatar: avatar4,
@@ -47,7 +47,7 @@ const datax = [
   {
     id: 5,
     name: 'Jumadi RT. 03',
-    kedudukan: 'Dosen di Boating School Ny. Puff',
+    kedudukan: 'Ketua RT. 06',
     rating: star1,
     message:
       'Pengiriman cepat,,, seller ramah,, packing juga rapih, tapi barangnya belom dicoba... saya kasih bintang satu dulu,,,, nanti kalo udah dicoba saya kasih bintang dua,,, nanti kalo udah peterpen jadi bintang di surga... xixixixi... 😀😀😀😀😀',
@@ -56,7 +56,7 @@ const datax = [
   {
     id: 6,
     name: 'Cucunya Megalodon',
-    kedudukan: 'Dosen di Boating School Ny. Puff',
+    kedudukan: 'Pecinta Kucing Hungaria',
     rating: star5,
     message:
       'aplikasinya keren! mjb, nder.... aku numpang lapak yaaa ... Jual Netflix Spotify disney plus Youtube prem Iqiyi Grammarly Viu Canva Wetv Vidio Mola tv picsart Tezza Unfold Aligh motion Vsco Lightroom get contact apple music amazon prime resso iflix Microsoft 365 HBO GO zoom.',
@@ -69,7 +69,7 @@ function Testimonials({ id }) {
     <div className="w-full py-16 relative" id={id}>
       <div className="absolute inset-0 w-full h-full bg-[#FE5E44] bg-opacity-10"></div>
 
-      <SectionTitle className="space-y-14">
+      <SectionTitle className="space-y-14 max-w-[1208px] mx-auto ">
         <div className="flex justify-center items-center max-w-[700px] mx-auto flex-col text-center space-y-5">
           <div>
             <h1 className="text-[#0E144A] text-[40px] font-semibold leading-normal text-center">Apa kata umat manusia tentang</h1>

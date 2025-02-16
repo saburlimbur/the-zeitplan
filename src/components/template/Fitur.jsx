@@ -36,7 +36,7 @@ const datax = [
 
 function Fitur({ id }) {
   return (
-    <div className="w-full px-5 py-16" id={id}>
+    <div className="max-w-[1208px] mx-auto px-5 py-16" id={id}>
       <SectionTitle className="flex justify-center items-center space-x-5">
         {/* left */}
         <div className="w-1/2 h-full">

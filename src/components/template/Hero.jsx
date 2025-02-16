@@ -17,25 +17,25 @@ const datax = [
     id: 2,
     icon: code,
     title: 'Aplikasi Gratis',
-    description: 'Semua fitur di aplikasi ini adalah gratis, tapi data privasi kamu akan kami jual ke agen khusus US.',
+    description: 'Pas login kode OTP lo gak kekirim kadang, terus lo harus nyoba berulang kali sampe bisa.',
   },
   {
     id: 3,
     icon: user,
     title: 'Aplikasi Gratis',
-    description: 'Semua fitur di aplikasi ini adalah gratis, tapi data privasi kamu akan kami jual ke agen khusus US.',
+    description: 'Data tidak disimpan dengan baik dan rentan bocor, jangan heran data lo tiba-tiba ada di deepweb.',
   },
   {
     id: 4,
     icon: wifioff,
     title: 'Aplikasi Gratis',
-    description: 'Semua fitur di aplikasi ini adalah gratis, tapi data privasi kamu akan kami jual ke agen khusus US.',
+    description: 'Ketika submit data biasanya error di bagian ajax-nya, eh engga deng itu aplikasi pemerintah~',
   },
 ];
 
 function Hero({ id }) {
   return (
-    <div className="w-full pb-12 px-5" id={id}>
+    <div className="max-w-[1208px] mx-auto pb-12 px-5" id={id}>
       <SectionTitle className="flex justify-between space-x-5">
         {/* left */}
         <div className="flex w-2/5">

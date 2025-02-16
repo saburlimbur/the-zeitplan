@@ -32,7 +32,7 @@ function Harga({ id }) {
   return (
     <div className="w-full relative py-16" id={id}>
       <div className="absolute inset-0 w-full h-full bg-[#FE5E44] bg-opacity-5"></div>
-      <SectionTitle className="space-y-14">
+      <SectionTitle className="space-y-14 max-w-[1208px] mx-auto ">
         <div className="flex justify-center items-center max-w-[700px] mx-auto flex-col text-center space-y-5">
           <div>
             <h1 className="text-[#0E144A] text-[40px] font-semibold leading-normal text-center">Main catur sambil bersepeda,</h1>

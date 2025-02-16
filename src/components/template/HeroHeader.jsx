@@ -7,7 +7,7 @@ import heroHeader from '/assets/heroheader.png';
 
 function HeroHeader({ id }) {
   return (
-    <div className="w-full px-5" id={id}>
+    <div className="max-w-[1208px] mx-auto px-5" id={id}>
       <SectionTitle className="flex justify-between space-x-5">
         {/* left */}
         <div className="w-1/2">
